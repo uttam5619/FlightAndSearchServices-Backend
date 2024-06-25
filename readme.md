@@ -39,7 +39,25 @@ configrations given below, to the `config.json` file present at following locati
 }
 
 -> Once all the server and db configurations has made successfully , go to the following
-location `src/config/mysql` within the terminal and execute the command ` npx sequelize db:create` 
+location `src/config/mysql` within the terminal and execute the command ` npx sequelize db:create`
+
+## Flight And Search Services
+
+Requirments
+
+-> Create Flights
+  - Flights will have their own Timmings and they will be avaliable on their respective days only.
+  - Flights will have their own Timmings and they will be avaliable on their respective days only.
+  - Internation flights will have econmy, business and A class, whereas domestic flights will have econmy and business class only.
+  - The internation and domestic fligts owned by different companies will have seating capacity, as well as they will have  different capacity for different classes. 
+
+-> Delete Flights
+
+-> Update Flights
+
+-> Search for Flights
+  - based on multiple filteration criteria.
+  - Pagination. 
 
 
 ###################################################################################################
